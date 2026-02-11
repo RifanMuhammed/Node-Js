@@ -1,75 +1,87 @@
-Node.js Learning & Projects
+# 🟢 Node.js Learning & Projects
 
-This repository contains my Node.js learning journey — from basics to small projects built while understanding core concepts and NPM packages.
+A collection of small exercises and mini-projects created while learning **Node.js fundamentals, native modules, and NPM packages**.
 
-📂 Folder Structure
-1. Using Node
+<hr>
 
-Basic Node.js fundamentals
+## 📁 Folder Structure
 
-Running JS outside the browser
+### 1️⃣ Using Node
 
-process object
+Basic Node.js concepts:
 
-Command line arguments
+* Running JavaScript outside the browser
+* Understanding the `process` object
+* Command line arguments
 
-2. Native Modules
+<br>
 
-Working with built-in Node modules
+### 2️⃣ Native Modules
 
-fs (File System)
+Working with built-in Node modules:
 
-path
+* `fs` (File System)
+* `path`
+* Reading & writing files
 
-Reading & writing files
+<br>
 
-3. NPM
+### 3️⃣ NPM
 
-Understanding package manager usage
+Learning how Node package manager works:
 
-Installing packages
+* Installing packages
+* `package.json`
+* Dependencies vs Dev Dependencies
 
-package.json
+<br>
 
-Dependencies vs devDependencies
+### 4️⃣ Superhero NPM
 
-4. Superhero NPM
+Using third-party NPM packages in projects
+Example: generate random superheroes / villains using an installed package.
 
-Using external NPM packages inside Node projects
-Example: generating random superheroes/villains using an installed package
+<br>
 
-5. QR Code Project
+### 5️⃣ QR Code Generator Project
 
-A small CLI app that generates a QR Code from a user-entered URL.
+A CLI application that generates a **QR code from a user-entered URL**
 
-⚠️ Note:
-inquirer and qrcode packages are NOT included in this repo.
-You must install them manually:
+<hr>
 
+## ⚠️ Important
+
+`inquirer` and `qrcode` are NOT included in this repository.
+
+Install them manually:
+
+```bash
 npm install inquirer qrcode
+```
 
+Run the project:
 
-Then run:
-
+```bash
 node index.js
+```
 
+### What the program does
 
-The program will:
+1. Prompts user to enter a URL
+2. Generates a QR code image
+3. Saves the URL into a text file
 
-Ask for a URL
+<hr>
 
-Generate a QR code image
+## 🎯 Purpose
 
-Save the URL to a text file
+This repository is created for practicing:
 
-🚀 Goal
+* Node.js basics
+* Built-in modules
+* Working with NPM
+* Building simple CLI applications
 
-This repo is mainly for practicing:
+<hr>
 
-Node.js basics
-
-Built-in modules
-
-NPM packages
-
-Simple CLI applications
+⭐ A step-by-step journey from learning Node to building small real projects.
